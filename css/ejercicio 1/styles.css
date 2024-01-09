@@ -1,0 +1,20 @@
+.caja{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center
+    color blue;
+    background-color: blueviolet;
+    border-radius: 30px 0;
+    box-shadow:6px 10px 5px rgba(43, 60, 42, 0.5); 
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+.caja h1{
+    color: aquamarine;
+    font-size: 30px;
+    padding: 10px;
+}
+.caja p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+}

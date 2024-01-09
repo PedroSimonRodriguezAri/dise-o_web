@@ -1,0 +1,58 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0%;
+    padding: 0px;
+    background-color: rgb(77, 39, 113);
+}
+header{
+    background-color: #737;
+    color: aliceblue;
+    padding: 1rem;
+}
+nav ul{
+
+    list-style-type: none;
+    padding: 0%;
+}
+nav ul li{
+    display: inline;
+    padding: 0;
+}
+nav ul li a {
+    color: azure;
+    text-decoration: none;
+    padding: 15px;
+}
+main{
+
+    padding: 2rem;
+    background-color: #738;
+}
+.Presentacion{
+    background-color: #756;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 15px 20px 15px rgb(42, 22, 37);
+    margin-top: 1rem;
+
+}
+.Productos,.Servicios{
+    background-color: rgb(154, 63, 109);
+    margin: 1rem;
+    border-radius: 20px 0;
+    box-shadow: 15px 20px 15px rgba(0, 0, 0.2);
+
+
+}
+.Servicios ul,.Productos ul{
+    list-style-type: none;
+    padding: 0;
+}
+.Servicios ul li,.Productos ul li {
+    margin-bottom: 1rem;
+}
+.footer p{
+   color: azure;
+   background-color: #756;
+}
