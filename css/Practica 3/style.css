@@ -1,0 +1,32 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(41, 122, 122);
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background: url(img.jpg);
+    color: blue;
+    padding: 1rem;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0%;
+
+}
+nav ul li{
+    display: inline;
+    padding: 0;
+    
+}
+nav ul li a{
+    font-family: fantasy;
+    color: rgb(220, 95, 17);
+    text-decoration: none;
+    padding: 30px;
+}
+.inscripcion{
+    background-color: rgb(215, 249, 250);
+    padding: 10px;
+    
+}
