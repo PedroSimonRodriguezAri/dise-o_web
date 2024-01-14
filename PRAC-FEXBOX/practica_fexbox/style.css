@@ -1,0 +1,25 @@
+.headerPrincipal nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(37, 37, 36);
+    padding: 25px;
+    margin-top: 0px;
+   text-decoration: none;
+   
+}
+.headerPrincipal-titulo {
+    background-color: yellow;
+    padding: 20px;
+    margin:0;
+    width: 100%;
+   
+    text-align: center;
+}
+.container {
+    margin: 0;
+    padding: 0px;
+    
+}
+.rodapePrincipal-navMap{
+    padding: 90px;
+}
