@@ -1,0 +1,7 @@
+.personaje__titulo{
+    color: rgba(147, 86, 25, 0.877);
+    font-weight: 900;
+    font-family: 'Dancing Script',sans-serif;
+    font-size: 3rem;
+    margin: 2rem;
+}

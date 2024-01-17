@@ -1,0 +1,6 @@
+.Productos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(188, 144, 85);
+    
+}

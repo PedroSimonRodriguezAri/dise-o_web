@@ -1,0 +1,17 @@
+.avatar__imagen{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.avatar__imagen--perfil{
+background-image: url('../../imagenes/producto/CAJA-CORAZON-768x768.jpg');
+}
+.avatar__imagen--perfil2{
+  background-image: url('../../imagenes/producto/caja-de-madera-pequeña-1.jpg');  
+}
+.avatar__imagen--perfil3{
+    background-image: url('../../imagenes/producto/caja-mimbre-grande-chocolates-surtidos-350-g.jpg');
+}
