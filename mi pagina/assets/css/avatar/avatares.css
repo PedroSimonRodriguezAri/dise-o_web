@@ -1,5 +1,19 @@
 .avatares{
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 3rem;
 }
+@media screen and (min-width:0) {
+    .avatares{
+        flex-direction: column;
+        
+    }
+    
+ }
+ @media screen and (min-width:750px) {
+    .avatares{
+        flex-direction: row;
+        
+    }
+    
+ }

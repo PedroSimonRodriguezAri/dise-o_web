@@ -1,0 +1,8 @@
+.fooyer__titulo{
+    display: flex;
+    color: blue;
+    font-family:'Dancing Script',sans-serif; ;
+    font-size: 1.7rem;
+    align-items: center;
+
+}

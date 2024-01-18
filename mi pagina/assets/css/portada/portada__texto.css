@@ -9,3 +9,17 @@
     width: 100%;
     
 }
+@media screen and (min-width:0px) {
+    .portada__texto{
+        font-size: 2rem;
+
+    }
+    
+}
+@media screen and (min-width:750px) {
+    .portada__texto{
+        font-size: 3rem;
+        
+    }
+    
+}

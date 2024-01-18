@@ -6,4 +6,17 @@
     padding-left: 2rem;
     padding-right: 2rem;
 }
+@media screen and (min-with:0) {
+    .cabecera{
+            justify-content: center;
+            padding: 0 1rem;
+
+    }
+}
+@media screen and (min-width:750px) {
+    .cabezera{
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+}
 

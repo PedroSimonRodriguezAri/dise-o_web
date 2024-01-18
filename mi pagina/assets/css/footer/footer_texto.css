@@ -1,0 +1,7 @@
+.footer__texto{
+    display: flex;
+    font-size: 1rem;
+    font-family:'Dancing Script',sans-serif; ;
+    color: brown;
+    margin-left: 2rem;
+}

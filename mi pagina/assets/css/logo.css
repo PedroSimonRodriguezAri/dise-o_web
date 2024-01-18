@@ -1,7 +1,14 @@
 @media screen and (min-width:0){
     .logo{
+        display: none;
         width:150px;
         height:100px
     }
 }
-
+@media screen and (min_width:750px){
+    .logo{
+        display: block;
+        width: 150px;
+        height: 80px;
+    }
+}

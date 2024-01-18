@@ -3,3 +3,17 @@
    padding: 2rem;
    background-color: rgba(170, 118, 28, 0.875);
 }
+@media screen and (min-width:0) {
+   .mensaje{
+      padding: 2rem 1rem;
+       
+   }
+   
+}
+@media screen and (min-width:750px) {
+   .mensaje{
+       padding: 2rem;
+       
+   }
+   
+}
