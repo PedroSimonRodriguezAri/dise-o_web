@@ -1,0 +1,25 @@
+.tarjeta__carrusel{
+   
+    height: 100%;
+    
+}
+#tarjeta__carrusel1{
+    background-color: rgb(243, 241, 238);
+    
+}
+#tarjeta__carrusel2{
+    background-color: rgb(244, 244, 244);
+    
+}
+#tarjeta__carrusel3{
+    background-color: rgb(247, 244, 240);
+    
+}
+#tarjeta__carrusel4{
+    background-color: rgb(243, 236, 236);
+}
+.tarjeta__carrusel p, img{
+   height: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}

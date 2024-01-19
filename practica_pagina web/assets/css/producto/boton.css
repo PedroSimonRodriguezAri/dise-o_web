@@ -1,0 +1,13 @@
+.producto__boton{
+    color: rgb(10, 10, 11);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight:900 ;
+    border-radius: 10px 0;
+    padding: 0.75rem;
+
+}
+.producto__boton:hover{
+    cursor: pointer;
+    background-color: rgb(170, 97, 24);
+}

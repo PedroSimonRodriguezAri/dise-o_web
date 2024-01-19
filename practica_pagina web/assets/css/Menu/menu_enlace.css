@@ -1,0 +1,14 @@
+.menu__enlace{
+
+    text-decoration: none;
+    margin-right: 2rem; 
+    text-transform: uppercase;
+}
+.menu__enlace.activo{
+    color: rgb(228, 228, 18);
+    font-weight: bold;
+}
+.menu__enlace:hover{
+    color: blue;
+    text-decoration: underline;
+}

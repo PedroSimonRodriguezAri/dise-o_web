@@ -1,0 +1,15 @@
+.flechas__carrusel{
+    border: 1px ;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+  
+}
+.flechas__carrusel a{
+    text-decoration: none;
+}
