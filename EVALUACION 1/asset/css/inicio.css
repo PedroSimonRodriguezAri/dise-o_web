@@ -1,0 +1,46 @@
+body{
+    background-color: #016A70;
+}
+.inicio{
+    
+width: 1728px;
+height: 837px;
+flex-shrink: 0;
+background: var(--Green, #016A70);
+}
+.imageninicio{
+    margin-top: 20px;
+    margin-left: 60%;
+}
+.inicio_introduccion{
+    color: white;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.inicio_titulo{
+    width: 656px;
+    color: var(--Cream, #FFD);
+
+
+    
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.inicio_descripcion{
+    width: 654px;
+height: 82px;
+color: var(--White, #FFF);
+
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

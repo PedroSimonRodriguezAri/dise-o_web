@@ -1,0 +1,38 @@
+.mensaje{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+
+}
+.mensaje__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.mensaje__item{
+    max-width: 300px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 1rem left 1rem;
+    padding: 2rem 0 2rem 5rem;
+
+}
+.mensaje__logo{
+    background-image: url(/imagenes/gantz.jpg);
+    height: 50px;
+    width: 50px;
+}
+.mensaje__item__texto{
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+.mensaje__item__texto{
+    line-height: normal;
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

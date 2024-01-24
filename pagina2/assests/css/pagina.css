@@ -1,0 +1,48 @@
+.pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aqua;
+    background-color:brown;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+
+}
+.pagina__titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.pagina__desc{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin: 0 auto 2.5rem;
+
+}
+.pagina__boton{
+    text-align: center;
+    width: 50%;
+    padding: 1rem;
+   width: 100%;
+   border: 3px solid rebeccapurple;
+   border-radius:0 50px;
+
+
+}
+@media screen and (min-widht:750px) {
+    
+    .pagina{
+        background-image: url("../img/moto2.avif");
+        height: 100px;
+        background-size: cover;
+        padding-top: 8rem;
+        
+    }
+}
+

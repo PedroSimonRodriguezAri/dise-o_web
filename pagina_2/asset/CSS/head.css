@@ -1,0 +1,30 @@
+.head{
+    color: aliceblue;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: 1px solid;
+    border-bottom: 1px solid #0b0606;
+    padding-top: -5rem;
+    background-color: rgb(88, 21, 21);
+    justify-content: space-between;
+}
+
+
+.head_logo{
+    height: 75px;
+    margin-bottom: 1rem;
+
+}
+.head_nav{
+    text-align: center;
+
+}
+.head_link{
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}

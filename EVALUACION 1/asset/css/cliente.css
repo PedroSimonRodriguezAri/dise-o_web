@@ -1,0 +1,26 @@
+.cliente{
+    display: inline-flex;
+align-items: flex-start;
+gap: 120px;
+}
+.cliente_texto{
+    color: var(--Dark, #222831);
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 5%;
+margin-top: 100px;
+}
+.cliente_descripcion{
+    color: var(--Dark, #222831);
+
+margin-top: 160px;
+
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}

@@ -1,0 +1,35 @@
+.head{
+    color: aqua;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    border-bottom: 1px solid rgb(93, 30, 196);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: black;
+    justify-content: space-between;
+    
+
+}
+.head__logo{
+height: 100px;
+margin-bottom: 1rem;
+align-items: center;
+
+
+
+}
+.head__nav{
+    text-align: center;
+}
+.head__link {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+
+}
