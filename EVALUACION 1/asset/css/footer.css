@@ -1,0 +1,12 @@
+.footer{
+width: 1728px;
+height: 609.199px;
+flex-shrink: 0;
+    
+background-image: url(/imagenes/footer.png);
+background-position: center;
+background-size: cover ;
+
+}
+
+    

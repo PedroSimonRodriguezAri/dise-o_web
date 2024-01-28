@@ -1,18 +1,28 @@
 body{
-    background-color: #016A70;
+    background-color:#016A70;
 }
+
 .inicio{
-    
+    width: 1728px;
+    height: 837px;
+    flex-shrink: 0;
+display: flex;
 width: 1728px;
 height: 837px;
 flex-shrink: 0;
 background: var(--Green, #016A70);
+align-items: center;
 }
 .imageninicio{
-    margin-top: 20px;
-    margin-left: 60%;
+    margin-top: 94px;
+    width: 505px;
+    height: 488px;
+    position: relative;
+    left:985.31px ;
+    
 }
 .inicio_introduccion{
+    
     color: white;
 font-family: Poppins;
 font-size: 28px;
@@ -43,4 +53,24 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+.introduccion_inicio{
+    position: relative;
+   
+    bottom: 455px;
+    left: 237.31px;
+}
+.inicio_boton{
+    display: flex;
+padding: 8px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+border: 2px solid var(--White, #FFF);
+text-decoration: none;
+position: relative;
+color: #FFF;
+width: 100px;
+
 }
