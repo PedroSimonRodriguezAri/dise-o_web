@@ -1,0 +1,24 @@
+.combo-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 32px;
+  border: 4px solid #FDFDFD;
+  background: #4a0ee1;
+  padding: 2rem;
+}
+
+@media screen and (min-width:0) {
+  .combo-card {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width:750px) {
+  .combo-card {
+    width: 40rem;
+    height: 42rem;
+  }
+}

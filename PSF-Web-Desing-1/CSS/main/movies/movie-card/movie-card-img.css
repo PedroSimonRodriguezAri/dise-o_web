@@ -1,0 +1,13 @@
+.movie-card__img {
+  width: 90%;
+  height: auto;
+  box-sizing: border-box;
+  margin-bottom: 1.2rem;
+  border-radius: 16px;
+  border: 2px solid #FBFBFB;
+}
+.movie-card__img:hover {
+  cursor: pointer;
+  width: 94%;
+  margin-bottom: 0;
+}

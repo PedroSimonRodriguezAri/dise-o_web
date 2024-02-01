@@ -1,0 +1,17 @@
+.menu {
+  list-style: none;
+  font-family: 'Oswald', sans-serif;
+}
+
+@media screen and (min-width:0) {
+  .menu {
+    display: none;
+  }
+}
+@media screen and (min-width:750px) {
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}

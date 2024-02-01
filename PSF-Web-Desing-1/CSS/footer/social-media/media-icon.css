@@ -1,0 +1,9 @@
+.social-media__icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.social-media__icon:hover {
+  width: 5rem;
+  height: 5rem;
+}

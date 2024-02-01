@@ -1,0 +1,18 @@
+.form__input {
+  height: 2.8rem;
+  border-radius: 12px;
+  background: #FBFBFB;
+  margin-bottom: 2rem;
+  border: none;
+}
+
+@media screen and (min-width:0) {
+  .form__input {
+    width: auto;
+  }
+}
+@media screen and (min-width:750px) {
+  .form__input {
+  width: 24rem;
+  }
+}

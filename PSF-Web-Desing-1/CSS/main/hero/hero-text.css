@@ -1,0 +1,21 @@
+.hero__text {
+  width: 60rem;
+  font-family: 'Lato', sans-serif;
+  color: #FFF;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+@media screen and (min-width:0) {
+  .hero__text {
+    display: none;
+  }
+}
+@media screen and (min-width:750px) {
+  .hero__text {
+    display: inline-block;
+  }
+}

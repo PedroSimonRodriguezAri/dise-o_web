@@ -1,0 +1,23 @@
+.combo-card__img {
+  box-sizing: border-box;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.combo-card__img:hover {
+  cursor: pointer;
+  width: 84%;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width:0) {
+  .combo-card__img {
+    width: 80%;
+    height: auto;
+  }
+}
+@media screen and (min-width:750px) {
+  .combo-card__img {
+    width: 80%;
+    height: 26rem;
+  }
+}

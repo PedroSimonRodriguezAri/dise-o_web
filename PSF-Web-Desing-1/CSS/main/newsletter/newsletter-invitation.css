@@ -1,0 +1,21 @@
+.newsletter__invitation {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width:0) {
+  .newsletter__invitation {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+}
+@media screen and (min-width:750px) {
+  .newsletter__invitation {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1.2rem;
+  }
+}

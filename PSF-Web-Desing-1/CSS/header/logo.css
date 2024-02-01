@@ -1,0 +1,7 @@
+.header__logo {
+  width: 8rem;
+  height: 5rem;
+}
+.header__logo:hover {
+  cursor: pointer;
+}

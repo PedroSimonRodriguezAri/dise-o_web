@@ -1,0 +1,16 @@
+.burger-menu {
+  width: 4rem;
+  height: 4rem;
+}
+
+@media screen and (min-width:0) {
+  .burger-menu {
+    display: inline-block;
+    margin-right: 1.6rem;
+  }
+}
+@media screen and (min-width:750px) {
+  .burger-menu {
+    display: none;
+  }
+}

@@ -1,0 +1,23 @@
+.movie-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 4px solid #FBFBFB;
+  padding: 1.8rem;
+}
+
+@media screen and (min-width:0) {
+  .movie-card {
+    width: 100%;
+
+  }
+}
+@media screen and (min-width:750px) {
+  .movie-card {
+    width: 34rem;
+  }
+}

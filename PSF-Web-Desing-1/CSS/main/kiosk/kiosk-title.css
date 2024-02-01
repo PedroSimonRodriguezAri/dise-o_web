@@ -1,0 +1,20 @@
+.kiosk__title{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FDFDFD;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+@media screen and (min-width:0) {
+    .kiosk__title {
+      font-size: 4rem;
+    }
+  }
+  @media screen and (min-width:750px) {
+    .kiosk__title {
+        font-size: 6.8rem;
+    }
+  }

@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background: linear-gradient(0deg, rgba(24,24,24,1) 48%, rgba(40,26,76,1) 92%, rgba(135,88,255,1) 100%);
+  font-family: 'Oswald', sans-serif;
+  color: #FDFDFD;
+  padding: 2rem 0 3rem;
+}
+
+@media screen and (min-width:0) {
+  .footer {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width:750px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

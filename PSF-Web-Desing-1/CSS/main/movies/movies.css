@@ -1,0 +1,20 @@
+.movies{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: #281a4c;
+}
+
+@media screen and (min-width:0) {
+  .movies {
+    padding: 2rem 5rem 0;
+  }
+}
+@media screen and (min-width:750px) {
+  .movies {
+    padding: 2rem 8rem 0;
+  }
+}

@@ -1,0 +1,40 @@
+.hero__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: auto;
+  border-radius: 20px;
+  font-family: 'Lato', sans-serif;
+
+  color: #FDFDFD;
+}
+.hero__button:hover {
+  cursor: pointer;
+  width: 36rem;
+  background-color: #8758FF;
+  font-weight: bold;
+}
+
+@media screen and (min-width:0) {
+  .hero__button {
+    width: 26rem;
+    background-color: #8758FF;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    padding: 1rem 0.5rem;
+  }
+}
+
+@media screen and (min-width:750px) {
+  .hero__button {
+    width: 34rem;
+    background: none;
+    border: 6px solid #8758FF;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    padding: 1.2rem 1rem;
+  }
+}
